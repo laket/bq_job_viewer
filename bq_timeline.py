@@ -250,7 +250,7 @@ class SubStage(object):
 
     @property
     def description(self):
-        desc = f"Avg {self.avg_ms} ms Max {self.avg_ms} ms\n"
+        desc = f"Avg {self.avg_ms} ms Max {self.max_ms} ms\n"
 
         return desc + self._description
 
